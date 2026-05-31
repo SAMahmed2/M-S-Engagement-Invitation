@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { supabase } from '../app/supabaseClient';
+import { supabase } from '@/app/supabaseClient';
 
 interface HeroSectionProps {
   isOpen: boolean;
